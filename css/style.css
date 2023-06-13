@@ -298,6 +298,8 @@ body {
   margin-top: 213px;
   background: #f06814;
   border-radius: 5px;
+  z-index: 1;
+  pointer-events: none;
 }
 .reck2 {
   position: absolute;
@@ -305,7 +307,6 @@ body {
   height: 66.83px;
   margin-left: 12px;
   margin-top: 7.6200000000000045px;
-
   background: #fcc88b;
   border-radius: 5px;
 }
@@ -315,7 +316,7 @@ body {
   right: 10px;
   top: 10px;
   bottom: 10px;
-
+  z-index: 1;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
