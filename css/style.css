@@ -359,6 +359,7 @@ body {
   margin-top: 0px;
   color: aliceblue;
   text-decoration: none;
+  font-family: "Inter";
 }
 
 .footer_list {
@@ -407,12 +408,15 @@ body {
   width: 100%;
   height: auto;
 }
-
+.d-flex{
+  font-family: "Inter";
+}
 .col-md-7 {
   display: flex;
   justify-content: center;
   color: white;
   text-decoration: none;
+  font-family: "Inter";
   margin-top: -23px;
 }
 .col-md-7 a {
