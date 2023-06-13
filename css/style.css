@@ -8,7 +8,7 @@ body {
 
 .main_page {
   position: absolute;
-  width: 1279px;
+  width: auto;
   height: 1136px;
   left: 293px;
   top: 0px;
@@ -337,7 +337,7 @@ body {
   padding-right: 60px;
   padding-left: 60px;
 
-  width: 1782px;
+  width: auto;
 }
 /* Footer */
 
