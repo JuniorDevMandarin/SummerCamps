@@ -7,36 +7,40 @@ body {
 }
 
 
-
+.test1{
+  display: flex;
+  justify-content: center;
+}
 
 .main_page {
   display: flex;
-  position: absolute;
+  justify-content: center;
+
   height: 1136px;
-  object-position: center;
-  top: 0px;
+
+  margin-top: 10px;
   width: 100%;
 
 }
 
 .minicoders_logo {
-  margin-left: 50px;
+  margin-left: 0px;
   margin-top: 37px;
 }
 
 .girl_img {
-  position: absolute;
+ 
   width: 479.64px;
   height: 481.13px;
-  left: 778.11px;
-  top: -2.05px;
+  margin-left: 576px;
+  margin-top: -10.05px;
 }
 .navbar_text {
-  position: absolute;
+  display: flex;
   width: 720px;
   height: 142px;
-  left: 56px;
-  top: 195px;
+  margin-left: -1270px;
+  margin-top: 195px;
 
   font-family: "Space Grotesk";
   font-style: normal;
@@ -51,11 +55,11 @@ body {
 }
 
 .navbar_text2 {
-  position: absolute;
+
   width: 584px;
   height: 121px;
-  left: 64px;
-  top: 358px;
+  margin-left: -714px;
+  margin-top: 377px;
 
   font-family: "Inter";
   font-style: normal;
@@ -67,13 +71,18 @@ body {
 
   color: #363d3f;
 }
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 .col-sm1 {
-  position: absolute;
+
   width: 379px;
   height: 336.65px;
-  left: 56px;
-  top: 553px;
+  margin-left: -583px;
+  margin-top: 553px;
 
   /* Global / Purple / Purple 40 */
 
@@ -81,11 +90,11 @@ body {
 }
 
 .col-sm2 {
-  position: absolute;
+
   width: 379px;
   height: 336.65px;
-  left: 450px;
-  top: 553px;
+  margin-left: -175px;
+  margin-top: -335px;
 
   /* Global / Purple / Purple 40 */
 
@@ -93,11 +102,11 @@ body {
 }
 
 .col-sm3 {
-  position: absolute;
+
   width: 379px;
   height: 336.65px;
-  left: 845px;
-  top: 552px;
+  margin-left: 234px;
+  margin-top: -336px;
 
   /* Global / Purple / Purple 40 */
 
@@ -108,8 +117,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 0;
-  top: 0;
+  margin-left: 0;
+  margin-top: 0;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -129,8 +138,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 0px;
-  top: 283.65px;
+  margin-left: 0px;
+  margin-top: 284px;
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -139,8 +148,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 326px;
-  top: 283.65px;
+  margin-left: 326px;
+  margin-top: 284px;
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -149,8 +158,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 0;
-  top: 0;
+  margin-left: 0;
+  margin-top: 0;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -160,8 +169,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 326px;
-  top: 0;
+  margin-left: 326px;
+  margin-top: 0;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -171,8 +180,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 0px;
-  top: 283.65px;
+  margin-left: 0px;
+  margin-top: 284px;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -182,8 +191,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 326px;
-  top: 283.65px;
+  margin-left: 326px;
+  margin-top: 284px;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -193,8 +202,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 0;
-  top: 0;
+  margin-left: 0;
+  margin-top: 0;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -204,8 +213,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 326px;
-  top: 0;
+  margin-left: 326px;
+  margin-top: 0;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -215,8 +224,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 0px;
-  top: 283.65px;
+  margin-left: 0px;
+  margin-top: 284px;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -226,8 +235,8 @@ body {
   position: absolute;
   width: 53px;
   height: 53px;
-  left: 326px;
-  top: 283.65px;
+  margin-left: 326px;
+  margin-top: 284px;
 
   background: #faf7f5;
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -236,16 +245,16 @@ body {
   position: absolute;
   width: 54.45px;
   height: 54.45px;
-  left: 163px;
-  top: 15px;
+  margin-left: 163px;
+  margin-top: 15px;
 }
 
 .shapstext_1 {
   position: absolute;
   width: 365px;
   height: 80px;
-  left: 4px;
-  top: 85px;
+  margin-left: 4px;
+  margin-top: 85px;
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 400;
@@ -259,8 +268,8 @@ body {
   position: absolute;
   width: 181px;
   height: 56px;
-  left: 100px;
-  top: 241px;
+  margin-left: -91px;
+  margin-top: 241px;
   z-index: 1;
   background: #f06814;
   box-shadow: inset 3px -3px 0px 1px #ce5002;
@@ -270,23 +279,23 @@ body {
   position: absolute;
   width: 134px;
   height: 52px;
-  left: 127px;
-  top: 172px;
+  margin-left: 127px;
+  margin-top: 172px;
 }
 .elipse {
   position: absolute;
   width: 7px;
   height: 7px;
-  left: 186px;
-  top: 162px;
+  margin-left: 190px;
+  margin-top: 162px;
 }
 
 .btn1 {
   position: absolute;
   width: 180px;
   height: 82.99px;
-  left: 100px;
-  top: 213px;
+  margin-left: -85px;
+  margin-top: 213px;
   background: #f06814;
   border-radius: 5px;
 }
@@ -294,8 +303,8 @@ body {
   position: absolute;
   width: 156.29px;
   height: 66.83px;
-  left: 12px;
-  top: 7.6200000000000045px;
+  margin-left: 12px;
+  margin-top: 7.6200000000000045px;
 
   background: #fcc88b;
   border-radius: 5px;
@@ -336,7 +345,7 @@ body {
 .main_footer {
   background-color: rgb(33, 34, 44);
   height: 100px;
-  margin-top: 1136px;
+  margin-top: -100px;
   padding-right: 60px;
   padding-left: 60px;
 
