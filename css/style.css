@@ -7,20 +7,14 @@ body {
 }
 
 
-.parent{
 
-  background-color: #b91181;
-  margin-left: 300px;
-
-}
 
 .main_page {
-
+  display: flex;
   position: absolute;
   height: 1136px;
   object-position: center;
   top: 0px;
-
   width: 100%;
 
 }
