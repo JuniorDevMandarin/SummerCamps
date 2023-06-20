@@ -35,7 +35,7 @@ body {
   margin-left: 576px;
   margin-top: -10.05px;
 }
-.navbar_text {
+.navbar-text {
   display: flex;
   width: 720px;
   height: 142px;
@@ -251,9 +251,9 @@ body {
 
 .shapstext_1 {
   position: absolute;
-  width: 365px;
+  width: 330px;
   height: 80px;
-  margin-left: 4px;
+  margin-left: 23px;
   margin-top: 85px;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -327,11 +327,11 @@ body {
 }
 .linksite {
   position: absolute;
-  left: 28.97%;
+  left: 21.97%;
   right: 29.04%;
   top: -2px;
   bottom: 28.57%;
-
+  width: 98px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -427,4 +427,27 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+.change-lang{
+  position: absolute;
+  display: flex;
+  margin-left: 1688px;
+  margin-top: -24px;
+  width: 100px;
+  background: #21222D  ;
+  color: white;
+  border: none;
+}
+
+option{
+  text-align: center;
+  color: white;
+}
+
+.globe{
+  color: white;
+  position: absolute;
+  display: flex;
+  margin-top: -29px;
+  margin-left: 1680px;
 }
