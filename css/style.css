@@ -431,8 +431,8 @@ body {
 .change-lang{
   position: absolute;
   display: flex;
-  margin-left: 1688px;
-  margin-top: -24px;
+  margin-left: 1044px;
+  margin-top: 4px;
   width: 100px;
   background: #21222D  ;
   color: white;
@@ -448,6 +448,6 @@ option{
   color: white;
   position: absolute;
   display: flex;
-  margin-top: -29px;
-  margin-left: 1680px;
+  margin-top: -1px;
+  margin-left: 937px;
 }
