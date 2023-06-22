@@ -84,8 +84,10 @@ if (userLang === 'en') {
   window.location.href = 'en/index.html'; // Замените на соответствующую ссылку на английскую версию сайта
 } else if (userLang === 'es') {
   window.location.href = 'es/index.html'; // Замените на соответствующую ссылку на испанскую версию сайта
+} else if (userLang === 'ca') {
+  window.location.href = 'ca/index.html'; // Замените на соответствующую ссылку на испанскую версию сайта  
 } else {
   // window.location.href = window.location.origin;
-  window.location.href = 'https://juniordevmandarin.github.io/SummerCamps/#'; // Замените на соответствующую ссылку на версию сайта по умолчанию
+  window.location.href = '/'; // Замените на соответствующую ссылку на версию сайта по умолчанию
 
 }
