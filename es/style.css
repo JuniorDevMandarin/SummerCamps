@@ -460,15 +460,16 @@ option{
     max-width: 600px;
   }
   .minicoders_logo {
-    margin-left: -357px;
+    margin-left: -3px;
     position: absolute;
     margin-top: 12px;
   }
   .girl_img {
     position: absolute;
     height: 57.129999999999995px;
-    margin-left: 112px;
+    margin-left: -326px;
     margin-top: 112.95px;
+    width: 0;
   }
   .girl_img img {
     width: 300px;
@@ -485,9 +486,9 @@ option{
 .navbar-text {
   position: absolute;
   display: flex;
-  width: 389px;
+  width: 323px;
   height: 142px;
-  margin-left: 81px;
+  margin-left: 13px;
   margin-top: 431px;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -553,9 +554,18 @@ option{
   width: auto;
 }
 .container {
-  margin-left: -457px;
+  margin-left: -471px;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.col-md-7 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-family: "Inter";
+  margin-top: -69px;
+  margin-left: 144px;
 }
 }
