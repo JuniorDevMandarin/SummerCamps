@@ -88,6 +88,6 @@ if (userLang === 'en') {
   window.location.href = 'ca/index.html'; // Замените на соответствующую ссылку на испанскую версию сайта  
 } else {
   // window.location.href = window.location.origin;
-  window.location.href = '/'; // Замените на соответствующую ссылку на версию сайта по умолчанию
+  window.location.href = '#'; // Замените на соответствующую ссылку на версию сайта по умолчанию
 
 }
