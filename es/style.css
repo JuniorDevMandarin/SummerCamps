@@ -451,3 +451,111 @@ option{
   margin-top: -1px;
   margin-left: 937px;
 }
+
+@media only screen and (max-width: 600px) {
+  .test1{
+    max-width: 600px;
+  }
+  .main_page {
+    max-width: 600px;
+  }
+  .minicoders_logo {
+    margin-left: -357px;
+    position: absolute;
+    margin-top: 12px;
+  }
+  .girl_img {
+    position: absolute;
+    height: 57.129999999999995px;
+    margin-left: 112px;
+    margin-top: 112.95px;
+  }
+  .girl_img img {
+    width: 300px;
+    height: 300px;
+  }
+
+.col-sm1 {
+  width: 379px;
+  height: 336.65px;
+  margin-left: -583px;
+  margin-top: 1178px;
+  background: #713edd;
+}
+.navbar-text {
+  position: absolute;
+  display: flex;
+  width: 389px;
+  height: 142px;
+  margin-left: 81px;
+  margin-top: 431px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 42px;
+  color: #363d3f;
+}
+.navbar_text2 {
+  position: absolute;
+  width: 305px;
+  height: 121px;
+  margin-left: 23px;
+  margin-top: 587px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #363d3f;
+}
+.col-sm1 {
+  position: absolute;
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 379px;
+  height: 336.65px;
+  margin-left: 44px;
+  margin-top: 769px;
+  background: #713edd;
+}
+
+
+.col-sm2 {
+  position: absolute;
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 379px;
+  height: 336.65px;
+  margin-left: 44px;
+  margin-top: 1161px;
+  background: #713edd;
+}
+
+.col-sm3 {
+  position: absolute;
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 379px;
+  height: 336.65px;
+  margin-left: 44px;
+  margin-top: 1539px;
+  background: #713edd;
+}
+
+
+.main_footer {
+  background-color: rgb(33, 34, 44);
+  height: 100px;
+  margin-top: 774px;
+  padding-right: 60px;
+  padding-left: 60px;
+  width: auto;
+}
+.container {
+  margin-left: -457px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+}
