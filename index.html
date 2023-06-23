@@ -41,13 +41,13 @@
           <div class="girl_img">
             <img src="images/girl.png" alt="" />
           </div>
-          <div class="navbar-text lng-title">
+          <div id="heading" class="navbar-text lng-title">
             <p>
               State-of-the-art educational game experiences that motivate
               children’s computational thinking development
             </p>
           </div>
-          <div class="navbar_text2 lng-text">
+          <div id="heading2" class="navbar_text2 lng-text">
             <p>
               Kids want to play, and they want to play in today’s platforms.
               Minicoders offers game experiences in popular metaverses, like
@@ -67,10 +67,10 @@
                 <div class="arrow_img">
                   <img src="images/arrow-right.png" alt="" />
                 </div>
-                <div class="shapstext_1 lng-shps1">
+                <div style="margin-top: 92px;" id ='shapes1' class="shapstext_1 lng-shps1">
                   <p>Go see our ongoing plans for Homes</p>
                 </div>
-                <a class="btn" href="#"><p class="linksite lng-link">Go to site</p></a>
+                <a class="btn" href="#"><p id="linki1" class="linksite lng-link">Go to site</p></a>
               </div>
               <div class="col-sm2">
                 <div class="vector5"></div>
@@ -91,7 +91,7 @@
                 </div>
                 <a class="btn1" href="#">
                   <div class="reck2"></div>
-                  <p class="coming_text lng-close">Coming soon</p>
+                  <p id ='shapes3' class="coming_text lng-close">Coming soon</p>
                 </a>
               </div>
               <div class="col-sm3">
@@ -103,9 +103,9 @@
                   <img src="images/arrow-right.png" alt="" />
                 </div>
                 <div class="shapstext_1 lng-shps3">
-                  <p>Minicoders for Schools</p>
+                  <p id = 'minicod_text'>Minicoders for Schools</p>
                 </div>
-                <a class="btn" href="#"><p class="linksite lng-link1">Go to site</p></a>
+                <a class="btn" href="#"><p id="linki" class="linksite lng-link1">Go to site</p></a>
               </div>
             </div>
           </div>
@@ -113,11 +113,12 @@
       </div>
     </div>
 
+
     <footer class="main_footer">
       <div class="icons_styles">
         <div class="followus">
           <br />
-          <a style="font-family: 'Inter';" href="https://www.linkedin.com/company/minicoders" class="followus"
+          <a style="font-family: 'Inter'; margin-left: -49px;" href="https://www.linkedin.com/company/minicoders" class="followus"
             >Follow us on</a
           >
           <a
@@ -139,23 +140,29 @@
         </div>
 
         <div class="col-md-7">
+          
           <a href="/privacy" style="margin-right: 1%"
             ><small>Privacy</small>
           </a>
           <small style="margin-right: 1%">.</small>
           <a href="/terms"><small>Terms</small></a>
           <a href="/terms"><small></small></a>
-          <!-- <select class="change-lang" >
 
-            <option  value="en" selected>English</option>
-            <option    value="es">Spanish </option>
-            <option     value="ca">Catalan</option>
-        </select> 
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Language</button>
+            <div  id="myDropdown" class="dropdown-content">
+              <a onclick="changeLanguage('en')">English</a>
+              <a onclick="changeLanguage('es')">Spanish</a>
+              <a onclick="changeLanguage('ca')">Catalan</a>
+            </div>
+          </div>
          <div class="globe">
           <i class="fa fa-globe"></i>
-        </div>  -->
+        </div> 
+
         </div>
-        
+
+
 
 
   
