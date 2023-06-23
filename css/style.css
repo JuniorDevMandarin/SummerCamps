@@ -275,7 +275,7 @@ body {
   box-shadow: inset 3px -3px 0px 1px #ce5002;
   border-radius: 8px;
 }
-.polygon {
+/* .polygon {
   position: absolute;
   width: 134px;
   height: 52px;
@@ -300,8 +300,8 @@ body {
   border-radius: 5px;
   z-index: 1;
   pointer-events: none;
-}
-.reck2 {
+} */
+/* .reck2 {
   position: absolute;
   width: 156.29px;
   height: 66.83px;
@@ -309,7 +309,7 @@ body {
   margin-top: 7.6200000000000045px;
   background: #fcc88b;
   border-radius: 5px;
-}
+} */
 .coming_text {
   position: absolute;
   left: 10px;

@@ -109,6 +109,8 @@ function changeLanguage(language) {
       document.getElementById('minicod_text').textContent = 'Minicoders for Schools';
       document.getElementById('linki').textContent = 'Go to site';
       document.getElementById('linki1').textContent = 'Go to site';
+      document.getElementById('linki2').textContent = 'Go to site';
+
   } else if (language === 'es') {
       document.getElementById('heading').textContent = 'Experiencias de juego de vanguardia que motivan el desarrollo de pensamiento computacional en los niños!';
       document.getElementById('heading2').textContent = 'Los niños quieren jugar, y lo quieren hacer en las plataformas actuales. Minicoders ofrece experiencias de juego en metaversos populares, como Roblox y Minecraft, fomentando la curiosidad por aprender sobre pensamiento computacional mientras ellos disfrutan de sus plataformas favoritas.';
@@ -117,6 +119,8 @@ function changeLanguage(language) {
       document.getElementById('minicod_text').textContent = 'Minicoders para Escuelas';
       document.getElementById('linki').textContent = 'Visita la web';
       document.getElementById('linki1').textContent = 'Visita la web';
+      document.getElementById('linki2').textContent = 'Visita la web';
+
   }  else if (language === 'ca') {
     document.getElementById('heading').textContent = "Experiències de joc educatiu d'avantguarda que motiven el desenvolupament del pensament computacional dels nens";
     document.getElementById('heading2').textContent = "Als nens el agrada jugar i fer-ho en plataformes actuals. Minicoders ofereix experiències de joc en plataformes com Roblox y Minecraft, de manera que els estudiants desenvolupen el pensament computacional mentre gaudeixen de les plataformes que més els agraden.";
@@ -124,7 +128,9 @@ function changeLanguage(language) {
     document.getElementById('shapes3').textContent = "Pròximament";
     document.getElementById('minicod_text').textContent = "Minicoders per a Escoles";
     document.getElementById('linki').textContent = "Visita la web";
-    document.getElementById('linki1').textContent = "Visita la web";
+    document.getElementById('linki2').textContent = "Visita la web";
+    document.getElementById('linki2').textContent = 'Visita la web';
+
 }
   
 }
