@@ -311,6 +311,7 @@ body {
   border-radius: 5px;
 } */
 .coming_text {
+  display: none;
   position: absolute;
   left: 10px;
   right: 10px;
@@ -327,19 +328,17 @@ body {
 }
 .linksite {
   position: absolute;
-  left: 21.97%;
+  left: 13.97%;
   right: 29.04%;
   top: -2px;
   bottom: 28.57%;
-  width: 98px;
+  width: 133px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-
   text-align: center;
-
   color: #ffffff;
 }
 

@@ -128,7 +128,7 @@ function changeLanguage(language) {
     document.getElementById('shapes3').textContent = "Pròximament";
     document.getElementById('minicod_text').textContent = "Minicoders per a Escoles";
     document.getElementById('linki').textContent = "Visita la web";
-    document.getElementById('linki2').textContent = "Visita la web";
+    document.getElementById('linki1').textContent = "Visita la web";
     document.getElementById('linki2').textContent = 'Visita la web';
 
 }
