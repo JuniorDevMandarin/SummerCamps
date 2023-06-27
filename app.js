@@ -105,7 +105,6 @@ function changeLanguage(language) {
       document.getElementById('heading').textContent = 'State-of-the-art educational game experiences that motivate children’s computational thinking development!';
       document.getElementById('heading2').textContent = 'Kids want to play, and they want to play in today’s platforms. Minicoders offers game experiences in popular metaverses, like   Roblox and Minecraft, so kids grow curious to learn about computational thinking while enjoying the platforms they love the most.';
       document.getElementById('shapes1').textContent = 'Go see our ongoing plans for Homes';
-      document.getElementById('shapes3').textContent = 'Coming soon';
       document.getElementById('minicod_text').textContent = 'Minicoders for Schools';
       document.getElementById('linki').textContent = 'Go to site';
       document.getElementById('linki1').textContent = 'Go to site';
@@ -115,7 +114,6 @@ function changeLanguage(language) {
       document.getElementById('heading').textContent = 'Experiencias de juego de vanguardia que motivan el desarrollo de pensamiento computacional en los niños!';
       document.getElementById('heading2').textContent = 'Los niños quieren jugar, y lo quieren hacer en las plataformas actuales. Minicoders ofrece experiencias de juego en metaversos populares, como Roblox y Minecraft, fomentando la curiosidad por aprender sobre pensamiento computacional mientras ellos disfrutan de sus plataformas favoritas.';
       document.getElementById('shapes1').textContent = 'Conoce nuestros planes para casa';
-      document.getElementById('shapes3').textContent = 'Próximamente';
       document.getElementById('minicod_text').textContent = 'Minicoders para Escuelas';
       document.getElementById('linki').textContent = 'Visita la web';
       document.getElementById('linki1').textContent = 'Visita la web';
@@ -125,7 +123,6 @@ function changeLanguage(language) {
     document.getElementById('heading').textContent = "Experiències de joc educatiu d'avantguarda que motiven el desenvolupament del pensament computacional dels nens";
     document.getElementById('heading2').textContent = "Als nens el agrada jugar i fer-ho en plataformes actuals. Minicoders ofereix experiències de joc en plataformes com Roblox y Minecraft, de manera que els estudiants desenvolupen el pensament computacional mentre gaudeixen de les plataformes que més els agraden.";
     document.getElementById('shapes1').textContent = "Ves a veure els nostres plans actuals per a casa";
-    document.getElementById('shapes3').textContent = "Pròximament";
     document.getElementById('minicod_text').textContent = "Minicoders per a Escoles";
     document.getElementById('linki').textContent = "Visita la web";
     document.getElementById('linki1').textContent = "Visita la web";
