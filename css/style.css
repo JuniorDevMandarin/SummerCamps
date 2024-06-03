@@ -16,7 +16,6 @@ body {
   display: flex;
   justify-content: center;
 
-  height: 1136px;
 
   margin-top: 10px;
   width: 100%;
@@ -345,7 +344,7 @@ body {
 .main_footer {
   background-color: rgb(33, 34, 44);
   height: 100px;
-  margin-top: -100px;
+
   padding-right: 60px;
   padding-left: 60px;
 
@@ -699,4 +698,43 @@ option{
   text-align: center;
   color: #363d3f;
 }
+}
+
+.financio_section {
+  align-items: center;
+
+
+  left: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+
+
+}
+.fin_image {
+
+
+
+}
+
+.fin_text{
+/* 
+  font-family: "Inter";
+  
+  align-items: center;
+  width: 1251px;
+  left: 50%; */
+  font-family: "Inter";
+
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.financio_text{
+ width: 1251px;
+ padding-top: 10px;
 }
