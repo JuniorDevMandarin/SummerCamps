@@ -705,7 +705,7 @@ option{
 
 
   left: 50%;
-  padding-top: 50px;
+  padding-top: 120px;
   padding-bottom: 50px;
   text-align: center;
 
@@ -730,6 +730,7 @@ option{
   text-align: center;
   display: flex;
   justify-content: center;
+  margin-top: 80px;
 
 
 }
